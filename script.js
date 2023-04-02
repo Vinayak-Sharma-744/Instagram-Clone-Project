@@ -4,7 +4,7 @@ let menu = document.getElementById("menu")
 profile.addEventListener('click', fun)
 
 function fun(){
-    if (menu.style.display === "none") {
+    if (menu.style.display === "" || menu.style.display ==="none") {
         menu.style.display = "block"
         console.log("check1")
     } 
